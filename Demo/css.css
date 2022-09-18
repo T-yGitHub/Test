@@ -1,0 +1,50 @@
+body {
+    font-family: 'Helvetica', 'Arial', serif;
+    color: #333;
+    background-color: #ccc;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    background-color: transparent;
+}
+
+a {
+    color: #c60;
+    background-color: transparent;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ul {
+    width: 500px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+li {
+    float: left;
+    padding-bottom: 1em;
+    list-style: none;
+}
+
+img {
+    display: block;
+    clear: both;
+    width: 500px;
+    margin: 0 auto;
+}
+
+#imagegallery {
+    list-style: none;
+}
+
+#imagegallery li {
+    display: inline;
+}
+
+#imagegallery li a img {
+    border: 0;
+    width: calc(500px / 4);
+}
